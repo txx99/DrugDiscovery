@@ -1,12 +1,12 @@
 Build an ML model for drug discovery using the ChEMBL database (https://www.ebi.ac.uk/chembl/) of bioactive molecules with drug-inducing properties.
 
-Query: 'coronavirus' target protein *SARS coronavirus 3C-like proteinase*.\
-Preprocess: drop na, categorise bioactivity by IC50 values.\
-Exploration: calculate Lipinski Rule descriptors & visualise descriptors vs bioactivity (p-value MannWhitney-U):\
-    * Molecular weight\
-    * Octanol-water partition coefficient (LogP)\
-    * Hydrogen bond donors\
-    * Hydrogen bond acceptors\
+**Query:** 'coronavirus' target protein *SARS coronavirus 3C-like proteinase*.\
+**Preprocess:** drop na, categorise bioactivity by IC50 values.\
+**Exploration:** calculate Lipinski Rule descriptors & visualise descriptors vs bioactivity (p-value MannWhitney-U):\
+- Molecular weight\
+- Octanol-water partition coefficient (LogP)\
+- Hydrogen bond donors\
+- Hydrogen bond acceptors
 
 
 Based on tutorial and template Jupyter notebook by Chanin Nantasenamat, 
