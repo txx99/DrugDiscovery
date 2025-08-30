@@ -2,7 +2,7 @@ Build an ML model for drug discovery using the ChEMBL database (https://www.ebi.
 
 **Query:** \
 'coronavirus' *SARS coronavirus 3C-like proteinase*.\
-**Preprocess:** 
+**Preprocess:** \
 *script:* CDD_ML_Part_1_Bioactivity_Preprocessing \
 *outputs:* (raw) bioactivity_data.csv; (cleaned) bioactivity_preprocessed_data.csv\
 **Exploration:** \
