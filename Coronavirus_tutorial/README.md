@@ -8,6 +8,7 @@ Build an ML model for drug discovery using the ChEMBL database (https://www.ebi.
 **Exploration:** \
 *input:* bioactivity_preprocessed_data.csv\
 *script:* CDD_ML_Part_2_Exploratory_Data_Analysis\
+*output:* Part_2_Results
 
 Based on tutorial and template Jupyter notebook by Chanin Nantasenamat, 
 at the 'Data Professor' YouTube channel http://youtube.com/dataprofessor.

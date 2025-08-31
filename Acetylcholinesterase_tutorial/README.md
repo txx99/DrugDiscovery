@@ -8,6 +8,7 @@ Build an ML model for drug discovery using the ChEMBL database (https://www.ebi.
 **Exploration:** \
 *input:* bioactivity_preprocessed_data.csv\
 *script:* CDD_ML_Part_2_Exploratory_Data_Analysis\
+*output:* Part_2_Results\
 **ML:** \
 *script:* CDD_ML_Part_3_Acetylcholinesterase_Descriptor_Dataset_Preparation
 
