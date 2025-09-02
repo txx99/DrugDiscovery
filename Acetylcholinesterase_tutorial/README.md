@@ -4,7 +4,7 @@ Build an ML model for drug discovery using the ChEMBL database (https://www.ebi.
 'acetylcholinesterase' *Human Acetylcholinesterase*\
 **Preprocess:** \
 *script:* CDD_ML_Part_1_Bioactivity_Preprocessing \
-*outputs:* (raw) bioactivity_data.csv; (cleaned) bioactivity_preprocessed_data.csv\
+*outputs:* bioactivity_data.csv (raw); bioactivity_preprocessed_data.csv (cleaned) \
 **Exploration:** \
 *input:* bioactivity_preprocessed_data.csv\
 *script:* CDD_ML_Part_2_Exploratory_Data_Analysis\
@@ -13,7 +13,7 @@ Build an ML model for drug discovery using the ChEMBL database (https://www.ebi.
 *input:* acetylcholinesterase_bioactivity_3class_data.csv \
 *script:* CDD_ML_Part_3_Acetylcholinesterase_Descriptor_Dataset_Preparation \
 *output:* ./PaDEL acetylcholinesterase_bioactivity_3class_pubchem_fp.csv \
-**ML:** \
+**ML (RandomForestRegressor):** \
 *input:* acetylcholinesterase_bioactivity_3class_pubchem_fp.csv \
 *script:* CDD_ML_Part_4_Acetylcholinesterase_Regression_Random_Forest \
 *output:* regression_model_scatter_plot.pdf
