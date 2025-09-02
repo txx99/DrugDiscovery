@@ -10,6 +10,7 @@ calculate Lipinski Rule descriptors, convert IC50 to pIC50, visualise descriptor
 - Octanol-water partition coefficient (LogP)
 - Hydrogen bond donors
 - Hydrogen bond acceptors \
+  
 **Fingerprinting + Feature Selection:** \
 using PaDEL-Descriptor + fingerprinting database of choice, build df of chemical fingerprints, concatenate with target feature of choice. \
 **ML:** \
