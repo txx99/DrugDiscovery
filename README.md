@@ -3,7 +3,7 @@ Build an ML model for drug discovery using the ChEMBL database (https://www.ebi.
 **Query:** \
 protein/organism of interest.\
 **Preprocess:**\
-drop na, select features (chembl_id, smiles, IC50), categorise bioactivity by IC50 values (<1k active; >10k inactive; 1k-10k intermediate).\
+remove duplicate smiles, drop NAs, select features (chembl_id, canonical_smiles, IC50), categorise bioactivity by IC50 values (<1k active; >10k inactive; 1k-10k intermediate).\
 **Exploration:** \
 calculate Lipinski Rule descriptors, convert IC50 to pIC50, visualise descriptors vs bioactivity (with MannWhitney-U significance testing):
 - Molecular weight
