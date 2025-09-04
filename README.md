@@ -12,7 +12,7 @@ calculate Lipinski Rule descriptors for oral drugs, convert IC50 to pIC50, visua
 - Hydrogen bond acceptors 
   
 **Fingerprinting + Feature Selection:** \
-using PaDEL-Descriptor + fingerprinting database of choice (Pubchem), build df of chemical fingerprints, concatenate with target feature of choice. \
+usie PaDEL-Descriptor + fingerprinting database of choice (Pubchem) to build df of chemical fingerprints, concatenate with target feature of choice. \
 **ML:** \
 remove low variance features, split X and Y data, lazypredict ML performances, train + test best model.
 
