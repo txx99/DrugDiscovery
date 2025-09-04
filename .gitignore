@@ -2,5 +2,5 @@
 # pixi environments
 .pixi
 *.egg-info
-Coronavirus_tutorial
+/Coronavirus_tutorial
 .git*
